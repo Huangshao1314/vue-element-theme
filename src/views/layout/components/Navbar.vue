@@ -1,6 +1,6 @@
 <template>
   <el-menu class="navbar" mode="horizontal">
-    <hamburger :toggle-click="toggleSideBar" :is-active="sidebar.opened" class="hamburger-container"/>
+    <hamburger :toggle-click="toggleSideBar" :is-active="true" class="hamburger-container"/>
 
     <breadcrumb class="breadcrumb-container"/>
 
@@ -49,7 +49,7 @@
 <script>
 import { mapGetters } from 'vuex'
 import Breadcrumb from '@/components/Breadcrumb'
-import Hamburger from '@/components/Hamburger'
+import Hamburger from '@/components/Hamburger/index'
 import ErrorLog from '@/components/ErrorLog'
 import Screenfull from '@/components/Screenfull'
 import SizeSelect from '@/components/SizeSelect'
