@@ -50,11 +50,11 @@
 import { mapGetters } from 'vuex'
 import Breadcrumb from '@/components/Breadcrumb'
 import Hamburger from '@/components/Hamburger/index'
-import ErrorLog from '@/components/ErrorLog'
-import Screenfull from '@/components/Screenfull'
+import ErrorLog from '@/components/ErrorLog/index'
+import Screenfull from '@/components/Screenfull/index'
 import SizeSelect from '@/components/SizeSelect'
 import LangSelect from '@/components/LangSelect'
-import ThemePicker from '@/components/ThemePicker'
+import ThemePicker from '@/components/ThemePicker/index'
 
 export default {
   components: {

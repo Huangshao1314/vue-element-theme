@@ -55,7 +55,9 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: 'index.html',
-      inject: true
+      inject: true,
+      path:'static',
+      title:'首页-开发环境'
     }),
     // copy custom static assets
     new CopyWebpackPlugin([
